@@ -1,5 +1,5 @@
 # CoreMLSecurityDemo
-A POC demonstrating an iOS hidden photos vulnerability through CoreML. As of iOS 11, apps can request access to a user's photos, which grants the app permission to analyze the user's hidden photos. This danger has become more apparent after Apple released it's new CoreML framework which easily allows apps to identify objects, age, gender,location, and etc. of any hidden image.
+A POC demonstrating an iOS hidden photos vulnerability through CoreML. As of iOS 11, apps can request access to a user's photos, which grants such apps permission to analyze the user's hidden photos. This danger has become more apparent after Apple released it's new CoreML framework which easily allows apps to identify objects, age, gender,location, and etc. of any hidden image.
 ## Sneak Peak
 ![Screenshot](https://github.com/theHarshul/CoreMLSecurityDemo/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-02-11%20at%2000.03.29.png)
 
