@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26489DDA1FF1EF9600BE7266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26489DD91FF1EF9600BE7266 /* AppDelegate.swift */; };
+		26489DDC1FF1EF9600BE7266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26489DDB1FF1EF9600BE7266 /* ViewController.swift */; };
+		26489DDF1FF1EF9600BE7266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26489DDD1FF1EF9600BE7266 /* Main.storyboard */; };
+		26489DE21FF1EF9600BE7266 /* CoreMLSecurityDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26489DE01FF1EF9600BE7266 /* CoreMLSecurityDemo.xcdatamodeld */; };
+		26489DE41FF1EF9600BE7266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26489DE31FF1EF9600BE7266 /* Assets.xcassets */; };
+		26489DE71FF1EF9600BE7266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26489DE51FF1EF9600BE7266 /* LaunchScreen.storyboard */; };
+		26489DEF1FF1F6D100BE7266 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26489DEE1FF1F6D100BE7266 /* MobileNet.mlmodel */; };
+		26489DF11FF2231100BE7266 /* PHAssetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26489DF01FF2231100BE7266 /* PHAssetExtension.swift */; };
+		26DBE1D2201DB9AB00C552DA /* AgeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26DBE1D1201DB9AB00C552DA /* AgeNet.mlmodel */; };
+		26DBE1D4201DBE5600C552DA /* GenderNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26DBE1D3201DBE5600C552DA /* GenderNet.mlmodel */; };
+		26DBE1D7201DC1DE00C552DA /* RN1015k500.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26DBE1D5201DC1DD00C552DA /* RN1015k500.mlmodel */; };
+		26DBE1DA201ECD1B00C552DA /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBE1D9201ECD1B00C552DA /* PhotoCell.swift */; };
+		DA4BFF8E268D8CC4EA27B989 /* Pods_CoreMLSecurityDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051FE904338BC1E9776E0CB1 /* Pods_CoreMLSecurityDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		051FE904338BC1E9776E0CB1 /* Pods_CoreMLSecurityDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreMLSecurityDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26489DD61FF1EF9600BE7266 /* CoreMLSecurityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLSecurityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26489DD91FF1EF9600BE7266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26489DDB1FF1EF9600BE7266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26489DDE1FF1EF9600BE7266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26489DE11FF1EF9600BE7266 /* CoreMLSecurityDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreMLSecurityDemo.xcdatamodel; sourceTree = "<group>"; };
+		26489DE31FF1EF9600BE7266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26489DE61FF1EF9600BE7266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26489DE81FF1EF9600BE7266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26489DEE1FF1F6D100BE7266 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		26489DF01FF2231100BE7266 /* PHAssetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHAssetExtension.swift; sourceTree = "<group>"; };
+		26DBE1D1201DB9AB00C552DA /* AgeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AgeNet.mlmodel; sourceTree = "<group>"; };
+		26DBE1D3201DBE5600C552DA /* GenderNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GenderNet.mlmodel; sourceTree = "<group>"; };
+		26DBE1D5201DC1DD00C552DA /* RN1015k500.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RN1015k500.mlmodel; sourceTree = "<group>"; };
+		26DBE1D9201ECD1B00C552DA /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		70137D1504E6433896303B56 /* Pods-CoreMLSecurityDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLSecurityDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreMLSecurityDemo/Pods-CoreMLSecurityDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F602CEDC2DACB4A88F6C9125 /* Pods-CoreMLSecurityDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLSecurityDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreMLSecurityDemo/Pods-CoreMLSecurityDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26489DD31FF1EF9600BE7266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4BFF8E268D8CC4EA27B989 /* Pods_CoreMLSecurityDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26489DCD1FF1EF9600BE7266 = {
+			isa = PBXGroup;
+			children = (
+				26489DD81FF1EF9600BE7266 /* CoreMLSecurityDemo */,
+				26489DD71FF1EF9600BE7266 /* Products */,
+				66A8144BF6D003EA5EBFB593 /* Pods */,
+				BA6119D595A12E2F9D679BA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26489DD71FF1EF9600BE7266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26489DD61FF1EF9600BE7266 /* CoreMLSecurityDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26489DD81FF1EF9600BE7266 /* CoreMLSecurityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				26489DEE1FF1F6D100BE7266 /* MobileNet.mlmodel */,
+				26DBE1D1201DB9AB00C552DA /* AgeNet.mlmodel */,
+				26DBE1D3201DBE5600C552DA /* GenderNet.mlmodel */,
+				26DBE1D5201DC1DD00C552DA /* RN1015k500.mlmodel */,
+				26489DD91FF1EF9600BE7266 /* AppDelegate.swift */,
+				26489DDB1FF1EF9600BE7266 /* ViewController.swift */,
+				26489DDD1FF1EF9600BE7266 /* Main.storyboard */,
+				26489DE31FF1EF9600BE7266 /* Assets.xcassets */,
+				26489DE51FF1EF9600BE7266 /* LaunchScreen.storyboard */,
+				26489DE81FF1EF9600BE7266 /* Info.plist */,
+				26489DE01FF1EF9600BE7266 /* CoreMLSecurityDemo.xcdatamodeld */,
+				26489DF01FF2231100BE7266 /* PHAssetExtension.swift */,
+				26DBE1D9201ECD1B00C552DA /* PhotoCell.swift */,
+			);
+			path = CoreMLSecurityDemo;
+			sourceTree = "<group>";
+		};
+		66A8144BF6D003EA5EBFB593 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F602CEDC2DACB4A88F6C9125 /* Pods-CoreMLSecurityDemo.debug.xcconfig */,
+				70137D1504E6433896303B56 /* Pods-CoreMLSecurityDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA6119D595A12E2F9D679BA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				051FE904338BC1E9776E0CB1 /* Pods_CoreMLSecurityDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26489DD51FF1EF9600BE7266 /* CoreMLSecurityDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26489DEB1FF1EF9600BE7266 /* Build configuration list for PBXNativeTarget "CoreMLSecurityDemo" */;
+			buildPhases = (
+				C41FE784AE600B36ED0C721B /* [CP] Check Pods Manifest.lock */,
+				26489DD21FF1EF9600BE7266 /* Sources */,
+				26489DD31FF1EF9600BE7266 /* Frameworks */,
+				26489DD41FF1EF9600BE7266 /* Resources */,
+				F4B3091017D9D8BC78909ADF /* [CP] Embed Pods Frameworks */,
+				4EA54EC561F580B387A4F83E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMLSecurityDemo;
+			productName = CoreMLSecurityDemo;
+			productReference = 26489DD61FF1EF9600BE7266 /* CoreMLSecurityDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26489DCE1FF1EF9600BE7266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Harshul Mulchandani";
+				TargetAttributes = {
+					26489DD51FF1EF9600BE7266 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26489DD11FF1EF9600BE7266 /* Build configuration list for PBXProject "CoreMLSecurityDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26489DCD1FF1EF9600BE7266;
+			productRefGroup = 26489DD71FF1EF9600BE7266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26489DD51FF1EF9600BE7266 /* CoreMLSecurityDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26489DD41FF1EF9600BE7266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26489DE71FF1EF9600BE7266 /* LaunchScreen.storyboard in Resources */,
+				26489DE41FF1EF9600BE7266 /* Assets.xcassets in Resources */,
+				26489DDF1FF1EF9600BE7266 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EA54EC561F580B387A4F83E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreMLSecurityDemo/Pods-CoreMLSecurityDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41FE784AE600B36ED0C721B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreMLSecurityDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4B3091017D9D8BC78909ADF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoreMLSecurityDemo/Pods-CoreMLSecurityDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreMLSecurityDemo/Pods-CoreMLSecurityDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26489DD21FF1EF9600BE7266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26489DEF1FF1F6D100BE7266 /* MobileNet.mlmodel in Sources */,
+				26DBE1DA201ECD1B00C552DA /* PhotoCell.swift in Sources */,
+				26DBE1D7201DC1DE00C552DA /* RN1015k500.mlmodel in Sources */,
+				26489DE21FF1EF9600BE7266 /* CoreMLSecurityDemo.xcdatamodeld in Sources */,
+				26DBE1D2201DB9AB00C552DA /* AgeNet.mlmodel in Sources */,
+				26489DF11FF2231100BE7266 /* PHAssetExtension.swift in Sources */,
+				26DBE1D4201DBE5600C552DA /* GenderNet.mlmodel in Sources */,
+				26489DDC1FF1EF9600BE7266 /* ViewController.swift in Sources */,
+				26489DDA1FF1EF9600BE7266 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26489DDD1FF1EF9600BE7266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26489DDE1FF1EF9600BE7266 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26489DE51FF1EF9600BE7266 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26489DE61FF1EF9600BE7266 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26489DE91FF1EF9600BE7266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26489DEA1FF1EF9600BE7266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26489DEC1FF1EF9600BE7266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F602CEDC2DACB4A88F6C9125 /* Pods-CoreMLSecurityDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoreMLSecurityDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theHarshul.CoreMLSecurityDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26489DED1FF1EF9600BE7266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70137D1504E6433896303B56 /* Pods-CoreMLSecurityDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoreMLSecurityDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theHarshul.CoreMLSecurityDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26489DD11FF1EF9600BE7266 /* Build configuration list for PBXProject "CoreMLSecurityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26489DE91FF1EF9600BE7266 /* Debug */,
+				26489DEA1FF1EF9600BE7266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26489DEB1FF1EF9600BE7266 /* Build configuration list for PBXNativeTarget "CoreMLSecurityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26489DEC1FF1EF9600BE7266 /* Debug */,
+				26489DED1FF1EF9600BE7266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26489DE01FF1EF9600BE7266 /* CoreMLSecurityDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26489DE11FF1EF9600BE7266 /* CoreMLSecurityDemo.xcdatamodel */,
+			);
+			currentVersion = 26489DE11FF1EF9600BE7266 /* CoreMLSecurityDemo.xcdatamodel */;
+			path = CoreMLSecurityDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26489DCE1FF1EF9600BE7266 /* Project object */;
+}
